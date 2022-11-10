@@ -13,3 +13,9 @@ OPERATIONS = {
 }
 
 OPERATORS = ['*', '-', '+']
+
+HIDDEN_NUM = '..'
+
+STEP_RANGE = (2, 5)
+
+PROG_LEN = 10
