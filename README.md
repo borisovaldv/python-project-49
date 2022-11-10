@@ -25,7 +25,7 @@ https://python-poetry.org/docs/
 ### Package itself
 ```bash
 # clone via SSH:
->> git@github.com:borisovaldv/python-project-49.git
+>> git clone git@github.com:borisovaldv/python-project-49.git
 ```
 
 ### After installation:
