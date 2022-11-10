@@ -1,7 +1,7 @@
 import random
 from brain_games.games.const import HIDDEN_NUM, RANGE, STEP_RANGE, PROG_LEN
 
-GAME_DESCRIPTION = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def set_progression(random_progression):

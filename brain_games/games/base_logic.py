@@ -12,15 +12,16 @@ def welcome():
 def launch_game(game):
     counter = 0
     name = welcome()
-    print(game.GAME_DESCRIPTION)
+    print(game.DESCRIPTION)
 
     while counter < ATTEMPTS:
         question, right_answer = game.get_question_and_answer()
         print(f'Question: {question}')
-        users_answer = prompt.string('Your answer: ')
+        wrong_answer = 'is wrong answer ;(. Correct answer was'
+        answer = prompt.string('Your answer: ')
 
-        if users_answer != right_answer:
-            print(f"'{users_answer}' is wrong answer ;(. Correct answer was '{right_answer}'.")
+        if answer != right_answer:
+            print(f"'{answer}' {wrong_answer} '{right_answer}'.")
             break
 
         print('Correct!')
