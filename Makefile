@@ -1,4 +1,4 @@
-brainstall:
+install:
 	poetry install
 
 brain-games:
