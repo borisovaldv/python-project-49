@@ -1,6 +1,5 @@
 import prompt
 from brain_games.games.const import ATTEMPTS
-from brain_games.games.even import get_question_and_answer, GAME_DESCRIPTION
 
 
 def welcome():
@@ -13,10 +12,10 @@ def welcome():
 def launch_game(game):
     counter = 0
     name = welcome()
-    print(GAME_DESCRIPTION)
+    print(game.GAME_DESCRIPTION)
 
     while counter < ATTEMPTS:
-        question, right_answer = get_question_and_answer()
+        question, right_answer = game.get_question_and_answer()
         print(f'Question: {question}')
         users_answer = prompt.string('Your answer: ')
 
