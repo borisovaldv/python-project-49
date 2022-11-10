@@ -1,7 +1,7 @@
 import random
 from brain_games.games.const import RANGE
 
-GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(random_number):

@@ -2,7 +2,7 @@ import random
 import math
 from brain_games.games.const import RANGE
 
-GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def get_answer(first_number, second_number):
